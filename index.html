@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Florian AI Life Mentor | Global Premium Guidance</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO -->
+<meta name="description" content="Premium AI Life Mentorship, Motivation & Global Support by Florian">
+<meta name="keywords" content="AI mentor, life advice, motivation, business mindset">
+<meta name="author" content="Florian">
+
+<!-- GOOGLE ADSENSE (weka yako baada ya kuidhinishwa) -->
+<!--
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXX"
+crossorigin="anonymous"></script>
+-->
+
+<style>
+:root{
+  --main:#00e5ff;
+  --accent:#00c853;
+  --dark:#0b1d26;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: 'Segoe UI',sans-serif;
+  background:linear-gradient(160deg,#0f2027,#203a43,#2c5364);
+  color:#fff;
+}
+header{
+  padding:80px 20px;
+  text-align:center;
+}
+header h1{
+  font-size:48px;
+  color:var(--main);
+}
+header p{
+  max-width:700px;
+  margin:auto;
+  opacity:.9;
+}
+section{
+  max-width:1200px;
+  margin:auto;
+  padding:40px 20px;
+}
+.card{
+  background:rgba(255,255,255,.08);
+  border-radius:20px;
+  padding:30px;
+  margin-bottom:30px;
+  box-shadow:0 20px 40px rgba(0,0,0,.4);
+}
+.card h2{
+  color:#00ff99;
+}
+.btn{
+  padding:14px 28px;
+  border-radius:12px;
+  text-decoration:none;
+  font-weight:bold;
+  display:inline-block;
+  margin:10px 8px 0 0;
+}
+.primary{background:var(--main);color:#003}
+.pay{background:var(--accent);color:#fff}
+.paypal{background:#1976d2;color:#fff}
+.coffee{background:#ff9800;color:#000}
+.btn:hover{opacity:.85}
+footer{
+  text-align:center;
+  padding:40px 15px;
+  font-size:14px;
+  opacity:.85;
+}
+footer a{color:var(--main);text-decoration:none}
+#advice{margin-top:15px;font-size:18px}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Florian AI Life Mentor</h1>
+  <p>Global-Level AI Guidance • Motivation • Business & Life Mentorship 🌍</p>
+</header>
+
+<section>
+
+<!-- AI ADVICE -->
+<div class="card">
+<h2>🤖 AI Daily Wisdom</h2>
+<p>Bonyeza kupata ushauri wa maisha wa kiwango cha dunia.</p>
+<a class="btn primary" onclick="advice()">Get Advice</a>
+<p id="advice"></p>
+</div>
+
+<!-- ADSENSE AREA -->
+<div class="card">
+<h2>📢 Sponsored Content</h2>
+<p>This space is reserved for Google AdSense & Global Brand Ads.</p>
+
+<!-- ADSENSE PLACEHOLDER -->
+<div style="background:#111;padding:40px;text-align:center;border-radius:12px;">
+Ad Space (Auto Ads / Display Ads)
+</div>
+</div>
+
+<!-- PAYMENTS -->
+<div class="card">
+<h2>💎 Premium Support & Payments</h2>
+<p>Support the project or request premium mentorship services.</p>
+
+<a class="btn pay">🇹🇿 Tanzania Mobile Money<br>+255 765 417 146</a>
+
+<a class="btn paypal" href="https://www.paypal.me/" target="_blank">
+🌍 PayPal Global
+</a>
+
+<a class="btn coffee" href="#" target="_blank">
+☕ Buy Me a Coffee
+</a>
+</div>
+
+<!-- CONTACT -->
+<div class="card">
+<h2>📩 Contact Us</h2>
+<p>Email: <b>support@florian-ai.com</b></p>
+<p>WhatsApp: <b>+255 765 417 146</b></p>
+<p>Business Inquiries: <b>global@florian-ai.com</b></p>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Florian AI Life Mentor</p>
+<p>Made with ❤️ by Florian</p>
+<p>
+<a href="#">Privacy Policy</a> • 
+<a href="#">Terms of Service</a>
+</p>
+</footer>
+
+<script>
+const wisdom=[
+"Discipline creates freedom.",
+"Small steps daily lead to global success.",
+"Your mindset determines your future.",
+"Learn, build, repeat.",
+"Success rewards consistency."
+];
+function advice(){
+document.getElementById("advice").innerText=
+wisdom[Math.floor(Math.random()*wisdom.length)];
+}
+</script>
+
+</body>
+</html>
